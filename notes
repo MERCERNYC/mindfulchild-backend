@@ -1,0 +1,29 @@
+***Associations
+
+Category
+ has_many  :activities
+ :title-string 
+
+Activity
+  belongs_to: category 
+  :category_id- integer
+  :name-string
+  :description-string
+  :url-string
+
+***Set-up Models
+    rails g resource Category title:string  --no-test-framework
+    rails g resource Activity name:string description:string category_id:integer url:string  --no-test-framework
+
+Migrate 
+  rake db:migrate
+
+***Create API/V1 folder
+    fetch('htttp://localhost:3000/api/v1/category)
+    namespace :api do 
+       routes
+    end
+
+***created a seed.file
+    rake:db drop    
+
