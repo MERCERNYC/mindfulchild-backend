@@ -19,11 +19,22 @@ Migrate
   rake db:migrate
 
 ***Create API/V1 folder
-    fetch('htttp://localhost:3000/api/v1/category)
+    fetch('htttp://localhost:3000/api/v1/categories/1/activities)
     namespace :api do 
-       routes
+        resources :categories do
+        resources :activities
+      end 
     end
 
 ***created a seed.file
     rake:db drop    
+
+
+***download Cors
+
+***Created actions on the controller for 
+Activity
+Categories
+
+*** Added Serializers-bundle install
 

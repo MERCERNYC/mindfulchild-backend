@@ -5,10 +5,10 @@ class Api::V1::ActivitiesController < ApplicationController
         render json: @activities
     end 
 
-    # def create
-    #     @activity = @category.activities.build(activity_params)
+    def create
+        @activity = @category.activities.build(activity_params)
        
-    # end 
+    end 
 
     def show
         @activity = Activity.find(params[:id])
@@ -25,5 +25,4 @@ class Api::V1::ActivitiesController < ApplicationController
         params.require(:activity).permit(:name, :description, :category_id, :url)
     end 
 
-end
 end
