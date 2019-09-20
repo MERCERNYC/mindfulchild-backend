@@ -38,3 +38,9 @@ Categories
 
 *** Added Serializers-bundle install
 
+FRONTEND 
+
+** setup index.js with store and redux
+** set up files actions, components, containers and reducers
+** import { connect } from 'react-redux' to connect Redux store with react
+
