@@ -3,6 +3,8 @@
 Category
  has_many  :activities
  :title-string 
+ :details-string 
+ 
 
 Activity
   belongs_to: category 
@@ -43,4 +45,9 @@ FRONTEND
 ** setup index.js with store and redux
 ** set up files actions, components, containers and reducers
 ** import { connect } from 'react-redux' to connect Redux store with react
+** create container 
+   categoryContainer.js
 
+** Added Router to index.js wrapping <APP/> child components
+
+  
