@@ -3,8 +3,8 @@
 Category
  has_many  :activities
  :title-string 
- :details-string 
- 
+ :detail-string 
+
 
 Activity
   belongs_to: category 
