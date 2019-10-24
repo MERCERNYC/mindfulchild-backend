@@ -1,5 +1,4 @@
-class NewslettersController < ApplicationController
-    class Api::V1::NewsletterController < ApplicationController
+ class Api::V1::NewslettersController < ApplicationController
 
         def index
           @newsletters= Newsletter.all
@@ -38,6 +37,4 @@ class NewslettersController < ApplicationController
           params.require(:newsletter).permit(:email)
         end
     
-    
-    end
 end

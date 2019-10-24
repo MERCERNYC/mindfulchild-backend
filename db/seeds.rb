@@ -1,9 +1,10 @@
-category = Category.create(title: 'Breath', detail:'Breathing with a Pinwheel', url:'http://i.imgur.com/N3Ti063.png') 
-category_two = Category.create(title: 'Listen', detail:'Listen to the birds singing', url:'http://i.imgur.com/bafbD7U.png')
-category_three = Category.create(title: 'Imagine', detail:'Listen to a history and imagine ', url:'http://i.imgur.com/FvjM17c.png')
+category = Category.create(title: 'Breath', detail:'Finding Calm Through Mindful Breathing', url:'http://i.imgur.com/N3Ti063.png') 
+category_two = Category.create(title: 'Listen', detail:'Calming Way To End The Day', url:'http://i.imgur.com/bafbD7U.png')
+category_three = Category.create(title: 'Imagine', detail:'Using Imagination To Tell A Story ', url:'http://i.imgur.com/FvjM17c.png')
 
-activity = Activity.create(category_id:1, name:'Blow on your Pinwheel ', description:'This exercise allows us to see how different ways of breathing affect how our mind and bodies feel' , url:"https://tenor.com/view/pinwheel-wind-breathing-exercise-gif-12703516")
-activity_two = Activity.create(category_id:2, name:'Listen the Birds Singing', description:"Listen to the birds as a calming way to end the day", url:'https://www.youtube.com/watch?v=VeIhRdR2jsU&t=41s')
-activity_three = Activity.create(category_id:3, name:'Use your Imagination and tell a history', description:"Create a history to feel focused and calm", url:"https://youtu.be/75NQK-Sm1YY")
+activity = Activity.create(category_id:1, name:'Breath', description:'Children can discover calm through the magic of mindful breathing' , url:"https://www.youtube.com/embed/iaQed_Xdyvw")
+activity_two = Activity.create(category_id:2, name:'Listen', description:"Children can listen to the rain as a calming way to end the day", url:"https://www.youtube.com/embed/yIQd2Ya0Ziw")
+activity_three = Activity.create(category_id:3, name:'Imagine', description:"Children can use their imagination to tell a story and stay focus", url:"https://www.youtube.com/embed/H4-96GqPup4")
 
-newsletter = Newsletter.create(email:'hello@me.com')
+newsletter = Newsletter.create(email:'mindfulchild@me.com')
+
