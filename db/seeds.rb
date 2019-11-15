@@ -8,3 +8,5 @@ activity_three = Activity.create(category_id:3, name:'Imagine', description:"Chi
 
 newsletter = Newsletter.create(email:'mindfulchild@me.com')
 
+message = Message.create(name:'Juliana', comment:'Your are awesome')
+
