@@ -29,9 +29,9 @@ ActiveRecord::Schema.define(version: 2019_11_14_171305) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "messages", force: :cascade do |t|
+  create_table "comments", force: :cascade do |t|
     t.string "name"
-    t.string "comment"
+    t.string "message"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
