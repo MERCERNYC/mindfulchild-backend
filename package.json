@@ -22,5 +22,6 @@
   "homepage": "https://github.com/MERCERNYC/mindfulchild-backend#readme",
   "dependencies": {
     "pkg": "^4.4.2"
-  }
+  },
+  "devDependencies": {}
 }
