@@ -22,6 +22,11 @@
   },
   "author": "",
   "license": "ISC",
+
+  "engines": {
+    "node": "13.3.0"
+  }
+
   "bugs": {
     "url": "https://github.com/MERCERNYC/mindfulchild-backend/issues"
   },
