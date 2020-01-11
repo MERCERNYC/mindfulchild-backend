@@ -8,6 +8,7 @@
     "test": "test"
   },
   "dependencies": {
+    "node.js": "^0.0.0",
     "pkg": "^4.4.2"
   },
   "devDependencies": {},
@@ -22,11 +23,9 @@
   },
   "author": "",
   "license": "ISC",
-
   "engines": {
     "node": "13.3.0"
   },
-
   "bugs": {
     "url": "https://github.com/MERCERNYC/mindfulchild-backend/issues"
   },
