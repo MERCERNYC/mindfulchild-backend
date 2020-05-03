@@ -1,0 +1,15 @@
+{
+    "backend": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mindfulchild-backend-92910-authRole",
+            "UnauthRoleArn": "arn:aws:iam::071626235728:role/amplify-mindfulchild-backend-92910-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::071626235728:role/amplify-mindfulchild-backend-92910-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-mindfulchild-backend-92910-deployment",
+            "UnauthRoleName": "amplify-mindfulchild-backend-92910-unauthRole",
+            "StackName": "amplify-mindfulchild-backend-92910",
+            "StackId": "arn:aws:cloudformation:us-east-1:071626235728:stack/amplify-mindfulchild-backend-92910/13d42690-8d42-11ea-869b-0a99e59b1983",
+            "AmplifyAppId": "d1x2vlpgrb7fgv"
+        }
+    }
+}
